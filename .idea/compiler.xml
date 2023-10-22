@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-ioc" />
+        <module name="ioc-overview" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ioc-container-overview" target="11" />
+      <module name="spring-ioc" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
